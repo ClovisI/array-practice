@@ -36,15 +36,22 @@
 <body>
 <header>
   <h1>Magic 8 Ball</h1>
-  <small>All of your questions answered, just maybe not in the order you ask them.</small>
+
+  <small id="subhead">All of your questions answered, just maybe not in the order you ask them.</small>
+
 </header>
 
 <section class="container">
   <img src="http://appinventor.mit.edu/explore/sites/all/files/Teach/media/image_8_ball.jpg" alt="a magic 8 ball">
-
+  <div class="fortune-container"></div>..
   <div>
+    <form class="magic8" action="index.html" method="post">
+
+    </form>
     <form>
-      <!-- TODO: Add a text field and submit button, attach a form handler function -->
+      <label for="addInput">What answer would you like to add?</label>
+      <input type="text" name="answerToAdd" id="addInput" value="">
+      <input type="submit" name="" value="">
     </form>
   </div>
 </section>
